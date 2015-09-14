@@ -1,0 +1,219 @@
+html,body {
+    width : 100%;
+    height : 100%;
+    background-color: #000;
+}
+
+.sun {
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    
+    /*行星大小*/
+    height: 100px;
+    width: 100px;
+    
+    margin-top: -50px; 
+    margin-left: -50px; 
+
+    border-radius: 100%;
+    
+    box-shadow: rgb(204, 153, 0) 0px 0px 50px 0px;
+}
+
+.earth {
+    position: absolute;
+    
+    /*固定top、left位置*/
+    top: 0%;
+    left: 50%;
+    
+    /*行星大小*/
+    height: 50px;
+    width: 50px;
+    
+    /*虛線邊邊*/
+    margin-top: -50px;
+    margin-left: -50px;
+    
+    border-radius: 100%;
+    box-shadow: green 0 0 25px ;
+}
+
+.earth-orbit {
+    position: absolute;
+    
+    /*固定top、left位置*/
+    top: 50%;
+    left: 50%;
+    
+    /*軌道大小*/
+    width: 200px;
+    height: 200px;
+    
+    /*軌道和太陽相對位置*/
+    margin-left: -100px;
+    margin-top: -100px;
+    
+    /*軌道虛線*/
+    /*border-width: 2px;
+    border-style: dotted;
+    border-color: white;*/
+    border-radius: 100%; 
+    
+    -webkit-animation: spin-right 10s linear infinite;
+    -moz-animation: spin-right 10s linear infinite;
+    animation: spin-right 10s linear infinite;
+
+
+}
+
+.moon {
+    /*top: 0%;
+    left: 50%;*/
+    
+    /*行星大小*/
+    height : 20px;
+    width : 20px;
+    
+    /*虛線邊邊*/
+    margin-top : -10px;
+    margin-left : -10px;
+    
+    border-radius: 100%;
+    box-shadow : red 0 0 100px ;
+}
+
+.moon-orbit{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    
+    /*軌道大小*/
+    width : 60px;
+    height : 60px;
+    
+    /*軌道和太陽相對位置*/
+    margin-top : -57px;
+    margin-left : -57px;
+    
+    /*軌道虛線*/
+    /*border-width: 2px;
+    border-style: dotted;
+    border-color: white;*/
+    border-radius: 100%;
+    
+    -webkit-animation: spin-right 1s linear infinite;
+    -moz-animation: spin-right 1s linear infinite;
+    animation: spin-right 1s linear infinite;
+}
+
+.mars {
+    position: absolute;
+    
+    /*固定top、left位置*/
+    top : 0%;
+    left: 50%;
+    
+    /*行星大小*/
+    width : 55px;
+    height : 55px;
+    
+    /*虛線邊邊*/
+    margin-top : -55px;
+    margin-left : 0px;
+    
+    border-radius: 100%;
+    box-shadow : blue 0 0 100px ;
+    
+}
+
+.mars-orbit { 
+    position: absolute;
+    
+    /*固定top、left位置*/
+    top : 50%;
+    left: 50%;
+    
+    /*軌道大小*/
+    height : 400px;
+    width : 400px;
+    
+    /*軌道和太陽相對位置*/
+    margin-top : -200px;
+    margin-left : -200px;
+    
+    /*軌道虛線*/
+    /*border-width: 2px;
+    border-style: dotted;
+    border-color: white;*/
+    border-radius: 100%;
+    
+    -webkit-animation: spin-right 12s linear infinite;
+    -moz-animation: spin-right 12s linear infinite;
+    animation: spin-right 12s linear infinite;
+    
+}
+
+.jupiter{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    
+    /*行星大小*/
+    width: 150px;
+    height: 150px;
+    
+    /*虛線邊邊*/
+    margin-top: 400px;
+    margin-left: 335px;
+    
+    border-radius: 100%;
+    box-shadow : white 0 0 100px ;
+}
+
+.jupiter-orbit{
+    position: absolute;
+    /*固定top、left位置*/
+    top: 50%;
+    left: 50%;
+    
+    /*軌道大小*/
+    height: 700px;
+    width: 700px;
+    
+    /*軌道和太陽相對位置*/
+    margin-top: -350px;
+    margin-left: -350px;
+    
+    /*軌道虛線*/
+    /*border-width: 2px;
+    border-style: dotted;
+    border-color: white;*/
+    border-radius: 100%;
+    
+    -webkit-animation: spin-right 20s linear infinite;
+    -moz-animation: spin-right 20s linear infinite;
+    animation: spin-right 20s linear infinite;
+}
+
+@-webkit-keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+
+  }
+}
+
+@-moz-keyframes spin-right {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+

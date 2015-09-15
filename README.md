@@ -1,6 +1,7 @@
-# Sun-Earth-Code
 Sun Earth Code
 
-由Codecademy 教學寫出來的地球自轉與月球公轉
+I learn from "Codecademy" tutorial 
 
-So Fun!
+and result is :
+
+https://www.codecademy.com/dos81229/codebits/Llz04O
